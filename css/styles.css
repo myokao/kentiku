@@ -370,7 +370,7 @@ footer p{
     font-size: 24px;
   }
   header{
-    width:100%;
+    width:100vw;
     height:120px;
     z-index: 20;
   }
@@ -385,10 +385,12 @@ footer p{
     display: none;
   }
   .img{
-    top:50px;
+    top:-50px;
+    width:100vw;
+    overflow: hidden;
   }
   video{
-    height:100vh;
+    height:90vh;
   }
   section{
     width:100%;
@@ -397,11 +399,13 @@ footer p{
     display:block;
   }
   .syasinn>div{
-    width:100%;
+    width:100vw;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom:64px;
   }
   .ex img{
     width:80%;
-    margin:64px;
     border:1px solid white;
   }
   .step {
